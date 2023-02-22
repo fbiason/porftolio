@@ -70,7 +70,6 @@ details,
 embed,
 figure,
 figcaption,
-footer,
 hgroup,
 menu,
 nav,
@@ -95,7 +94,6 @@ aside,
 details,
 figcaption,
 figure,
-footer,
 hgroup,
 menu,
 nav,
@@ -2588,51 +2586,6 @@ input[type="button"]:disabled,
   margin: 0;
 }
 
-/* Footer */
-
-#footer {
-  bottom: 0;
-  left: 0;
-  padding: 0 4em 6em 0;
-  position: fixed;
-  text-align: right;
-  width: 35%;
-}
-
-#footer .icons {
-  margin: 1em 0 0 0;
-}
-
-#footer .icons a {
-  color: rgba(255, 255, 255, 0.4);
-}
-
-#footer .copyright {
-  color: rgba(255, 255, 255, 0.4);
-  font-size: 0.8em;
-  list-style: none;
-  margin: 1em 0 0 0;
-  padding: 0;
-}
-
-#footer .copyright li {
-  border-left: solid 1px rgba(255, 255, 255, 0.25);
-  display: inline-block;
-  line-height: 1em;
-  margin-left: 0.75em;
-  padding-left: 0.75em;
-}
-
-#footer .copyright li:first-child {
-  border-left: 0;
-  margin-left: 0;
-  padding-left: 0;
-}
-
-#footer .copyright li a {
-  color: inherit;
-}
-
 /* Main */
 
 #main {
@@ -2931,21 +2884,6 @@ body.is-touch .poptrox-popup .closer {
 /* Large */
 
 @media screen and (max-width: 1280px) {
-  /* Footer */
-
-  #footer {
-    padding: 0 3em 5em 3em;
-    width: 30%;
-  }
-
-  #footer .copyright li {
-    border-left-width: 0;
-    display: block;
-    line-height: 2.25em;
-    margin-left: 0;
-    padding-left: 0;
-  }
-
   /* Main */
 
   #main {
@@ -2974,39 +2912,6 @@ body.is-touch .poptrox-popup .closer {
 
   ul.icons li .icon {
     font-size: 1.25em;
-  }
-
-  /* Footer */
-
-  #footer {
-    background-attachment: scroll;
-    background-color: #1f1815;
-    background-image: url("../img/overlay.png"), url("../img/bg.jpg");
-    background-position: top left, bottom center;
-    background-repeat: repeat, no-repeat;
-    background-size: auto, cover;
-    bottom: auto;
-    left: auto;
-    padding: 4em 4em 6em 4em;
-    position: relative;
-    text-align: center;
-    width: 100%;
-  }
-
-  #footer .icons {
-    margin: 0 0 1em 0;
-  }
-
-  #footer .copyright {
-    margin: 0 0 1em 0;
-  }
-
-  #footer .copyright li {
-    border-left-width: 1px;
-    display: inline-block;
-    line-height: 1em;
-    margin-left: 0.75em;
-    padding-left: 0.75em;
   }
 
   /* Main */
@@ -3054,12 +2959,6 @@ body.is-touch .poptrox-popup .closer {
 
   ul.labeled-icons li h3 {
     line-height: 1.75em;
-  }
-
-  /* Footer */
-
-  #footer {
-    padding: 2.25em 1.5em;
   }
 
   /* Main */
@@ -3121,16 +3020,6 @@ body.is-touch .poptrox-popup .closer {
   ul.actions.small li:first-child {
     padding-top: 0;
   }
-
-  /* Footer */
-
-  #footer .copyright li {
-    border-left-width: 0;
-    display: block;
-    line-height: 2.25em;
-    margin-left: 0;
-    padding-left: 0;
-  }
 }
 
 .menu {
@@ -3149,12 +3038,6 @@ body.is-touch .poptrox-popup .closer {
 .subscribe-btn:hover {
   color: #fff !important;
 }
-
-/*
-	Strata by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
 
 /* Button */
 
@@ -3205,10 +3088,4 @@ input[type="radio"] + label:before {
 .image img {
   position: relative;
   -ms-behavior: url("assets/js/ie/PIE.htc");
-}
-
-/* Footer */
-
-#footer .icons a {
-  color: #ffffff;
 }
