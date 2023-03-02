@@ -10,9 +10,10 @@ import { CommunityManagerComponent } from './componentes/community-manager/commu
 import { ManagementComponent } from './componentes/management/management.component';
 import { AboutMeComponent } from './componentes/about-me/about-me.component';
 import { ContactoComponent } from './componentes/contacto/contacto.component';
+import { IndexComponent } from './componentes/index/index.component';
 
 @NgModule({
-  declarations: [AppComponent, FooterComponent, HeaderComponent, WebDeveloperComponent, CommunityManagerComponent, ManagementComponent, AboutMeComponent, ContactoComponent],
+  declarations: [AppComponent, FooterComponent, HeaderComponent, WebDeveloperComponent, CommunityManagerComponent, ManagementComponent, AboutMeComponent, ContactoComponent, IndexComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
